@@ -1,0 +1,24 @@
+1.path finding algo
+2. finding out where you are exactly is the first part of the problem
+3. then route planning comes in wherein we find the best way get to the 
+destination the quickest
+
+#purpose and use case -  find the shortest path from a node (called the                    "source node") to all other nodes in the graph, producing shortest -path tree
+
+
+Basics of Dijkstra's Algorithm
+1. Dijkstra's Algorithm basically starts at the node that you choose (the source node) and it analyzes the graph to find the shortest path between that node and all the other nodes in the graph.
+
+2. The algorithm keeps track of the currently known shortest distance from each node to the source node and it updates these values if it finds a shorter path.
+
+3. Once the algorithm has found the shortest path between the source node and another node, that node is marked as "visited" and added to the path.
+
+4. The process continues until all the nodes in the graph have been added to the path. This way, we have a path that connects the source node to all other nodes following the shortest path possible to reach each node.
+
+# there are two forms in which graphs can be stored - 1. Adjacency   Matrix,  2. Adjacency List
+
+#Here in this algo, graph is contained in form of adjency matrix (2d - array) wherein value at each cell (arr[i][j]) represents that there is a edge between node i and node j and its value represents the distance between node i and node j 
+
+Adjacency Matrix -- space comp= o(v^2). | time comp = o(1)
+
+Breadth first search(BFS) - 
